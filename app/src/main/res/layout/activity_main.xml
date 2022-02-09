@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Placement Predictor"
+        android:textSize="30dp"
+        android:textAlignment="center"
+        android:layout_marginTop="30dp">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="CGPA"
+        android:id="@+id/cgpa"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/iq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="backlog ">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="profile_score"
+        android:id="@+id/profile_score"
+        android:layout_marginTop="20dp">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="#353131"
+
+        android:text="Predict"
+        android:textColor="#F44336">
+
+    </Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" your not placed  "
+        android:textSize="50dp"
+        android:textAlignment="center"
+        android:layout_marginTop="80dp"
+        android:id="@+id/result">
+
+    </TextView>
+
+</LinearLayout>
